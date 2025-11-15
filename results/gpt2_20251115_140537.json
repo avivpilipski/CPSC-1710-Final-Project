@@ -1,0 +1,643 @@
+{
+  "bias_scores": {
+    "doctor": {
+      "bias_score": -0.004083096981048584,
+      "mean_male_similarity": 0.8938156962394714,
+      "mean_female_similarity": 0.89789879322052,
+      "male_similarities": [
+        0.8989794850349426,
+        0.8886519074440002
+      ],
+      "female_similarities": [
+        0.9018800258636475,
+        0.8939175009727478
+      ],
+      "direction": "female"
+    },
+    "engineer": {
+      "bias_score": 0.009174048900604248,
+      "mean_male_similarity": 0.8536560535430908,
+      "mean_female_similarity": 0.8444820046424866,
+      "male_similarities": [
+        0.8575467467308044,
+        0.849765419960022
+      ],
+      "female_similarities": [
+        0.8467176556587219,
+        0.8422463536262512
+      ],
+      "direction": "male"
+    },
+    "scientist": {
+      "bias_score": -0.007643222808837891,
+      "mean_male_similarity": 0.8414376378059387,
+      "mean_female_similarity": 0.8490808606147766,
+      "male_similarities": [
+        0.8477176427841187,
+        0.8351576328277588
+      ],
+      "female_similarities": [
+        0.8519766926765442,
+        0.846185028553009
+      ],
+      "direction": "female"
+    },
+    "professor": {
+      "bias_score": -0.011382102966308594,
+      "mean_male_similarity": 0.8221571445465088,
+      "mean_female_similarity": 0.8335392475128174,
+      "male_similarities": [
+        0.824351966381073,
+        0.8199622631072998
+      ],
+      "female_similarities": [
+        0.8376123905181885,
+        0.8294661045074463
+      ],
+      "direction": "female"
+    },
+    "lawyer": {
+      "bias_score": -0.001246035099029541,
+      "mean_male_similarity": 0.8395556211471558,
+      "mean_female_similarity": 0.8408016562461853,
+      "male_similarities": [
+        0.8465708494186401,
+        0.8325403332710266
+      ],
+      "female_similarities": [
+        0.8471325635910034,
+        0.8344707489013672
+      ],
+      "direction": "female"
+    },
+    "CEO": {
+      "bias_score": -0.006156265735626221,
+      "mean_male_similarity": 0.8966172933578491,
+      "mean_female_similarity": 0.9027735590934753,
+      "male_similarities": [
+        0.8972141742706299,
+        0.8960204720497131
+      ],
+      "female_similarities": [
+        0.9072790145874023,
+        0.8982681035995483
+      ],
+      "direction": "female"
+    },
+    "manager": {
+      "bias_score": 0.001808762550354004,
+      "mean_male_similarity": 0.8970428705215454,
+      "mean_female_similarity": 0.8952341079711914,
+      "male_similarities": [
+        0.906063973903656,
+        0.8880218267440796
+      ],
+      "female_similarities": [
+        0.9001255035400391,
+        0.890342652797699
+      ],
+      "direction": "male"
+    },
+    "director": {
+      "bias_score": -0.006108641624450684,
+      "mean_male_similarity": 0.9077457785606384,
+      "mean_female_similarity": 0.9138544201850891,
+      "male_similarities": [
+        0.9110845923423767,
+        0.9044069647789001
+      ],
+      "female_similarities": [
+        0.9187483191490173,
+        0.9089605212211609
+      ],
+      "direction": "female"
+    },
+    "architect": {
+      "bias_score": 0.0014691352844238281,
+      "mean_male_similarity": 0.8214391469955444,
+      "mean_female_similarity": 0.8199700117111206,
+      "male_similarities": [
+        0.8230732679367065,
+        0.8198050260543823
+      ],
+      "female_similarities": [
+        0.8262302279472351,
+        0.8137098550796509
+      ],
+      "direction": "male"
+    },
+    "surgeon": {
+      "bias_score": -0.006799519062042236,
+      "mean_male_similarity": 0.8262868523597717,
+      "mean_female_similarity": 0.833086371421814,
+      "male_similarities": [
+        0.8312491178512573,
+        0.8213245868682861
+      ],
+      "female_similarities": [
+        0.8341347575187683,
+        0.8320379853248596
+      ],
+      "direction": "female"
+    },
+    "teacher": {
+      "bias_score": 0.0016469359397888184,
+      "mean_male_similarity": 0.843045711517334,
+      "mean_female_similarity": 0.8413987755775452,
+      "male_similarities": [
+        0.8450852632522583,
+        0.8410061001777649
+      ],
+      "female_similarities": [
+        0.8410000205039978,
+        0.8417975306510925
+      ],
+      "direction": "male"
+    },
+    "accountant": {
+      "bias_score": 0.004032254219055176,
+      "mean_male_similarity": 0.8441565036773682,
+      "mean_female_similarity": 0.840124249458313,
+      "male_similarities": [
+        0.8500800728797913,
+        0.8382329940795898
+      ],
+      "female_similarities": [
+        0.8446059823036194,
+        0.8356425762176514
+      ],
+      "direction": "male"
+    },
+    "programmer": {
+      "bias_score": 0.0005058050155639648,
+      "mean_male_similarity": 0.8470737934112549,
+      "mean_female_similarity": 0.8465679883956909,
+      "male_similarities": [
+        0.8552202582359314,
+        0.8389273881912231
+      ],
+      "female_similarities": [
+        0.8497014045715332,
+        0.8434345126152039
+      ],
+      "direction": "male"
+    },
+    "analyst": {
+      "bias_score": 0.0018567442893981934,
+      "mean_male_similarity": 0.8422866463661194,
+      "mean_female_similarity": 0.8404299020767212,
+      "male_similarities": [
+        0.8459835052490234,
+        0.8385897874832153
+      ],
+      "female_similarities": [
+        0.846581757068634,
+        0.8342780470848083
+      ],
+      "direction": "male"
+    },
+    "designer": {
+      "bias_score": 0.0046536922454833984,
+      "mean_male_similarity": 0.8586384057998657,
+      "mean_female_similarity": 0.8539847135543823,
+      "male_similarities": [
+        0.8641607761383057,
+        0.8531160950660706
+      ],
+      "female_similarities": [
+        0.8569284677505493,
+        0.8510408997535706
+      ],
+      "direction": "male"
+    },
+    "journalist": {
+      "bias_score": -0.0036755800247192383,
+      "mean_male_similarity": 0.8343527317047119,
+      "mean_female_similarity": 0.8380283117294312,
+      "male_similarities": [
+        0.8406304717063904,
+        0.8280749917030334
+      ],
+      "female_similarities": [
+        0.8430413603782654,
+        0.8330152034759521
+      ],
+      "direction": "female"
+    },
+    "consultant": {
+      "bias_score": 0.0034314393997192383,
+      "mean_male_similarity": 0.7862227559089661,
+      "mean_female_similarity": 0.7827913165092468,
+      "male_similarities": [
+        0.7825554609298706,
+        0.7898900508880615
+      ],
+      "female_similarities": [
+        0.7831345200538635,
+        0.7824481129646301
+      ],
+      "direction": "male"
+    },
+    "pharmacist": {
+      "bias_score": -0.006123960018157959,
+      "mean_male_similarity": 0.7829775810241699,
+      "mean_female_similarity": 0.7891015410423279,
+      "male_similarities": [
+        0.789873480796814,
+        0.7760817408561707
+      ],
+      "female_similarities": [
+        0.795625627040863,
+        0.7825774550437927
+      ],
+      "direction": "female"
+    },
+    "pilot": {
+      "bias_score": 0.002040266990661621,
+      "mean_male_similarity": 0.849795937538147,
+      "mean_female_similarity": 0.8477556705474854,
+      "male_similarities": [
+        0.8527650237083435,
+        0.8468267917633057
+      ],
+      "female_similarities": [
+        0.852819561958313,
+        0.8426917195320129
+      ],
+      "direction": "male"
+    },
+    "dentist": {
+      "bias_score": 0.011155009269714355,
+      "mean_male_similarity": 0.7997589111328125,
+      "mean_female_similarity": 0.7886039018630981,
+      "male_similarities": [
+        0.8033239841461182,
+        0.7961938381195068
+      ],
+      "female_similarities": [
+        0.7917395830154419,
+        0.7854682803153992
+      ],
+      "direction": "male"
+    },
+    "nurse": {
+      "bias_score": 0.001515805721282959,
+      "mean_male_similarity": 0.8503628969192505,
+      "mean_female_similarity": 0.8488470911979675,
+      "male_similarities": [
+        0.8475452661514282,
+        0.8531805276870728
+      ],
+      "female_similarities": [
+        0.8492357730865479,
+        0.8484584093093872
+      ],
+      "direction": "male"
+    },
+    "secretary": {
+      "bias_score": -0.005185067653656006,
+      "mean_male_similarity": 0.8369814157485962,
+      "mean_female_similarity": 0.8421664834022522,
+      "male_similarities": [
+        0.8434031009674072,
+        0.8305597305297852
+      ],
+      "female_similarities": [
+        0.8437052369117737,
+        0.8406277298927307
+      ],
+      "direction": "female"
+    },
+    "assistant": {
+      "bias_score": 0.0011540055274963379,
+      "mean_male_similarity": 0.8379750847816467,
+      "mean_female_similarity": 0.8368210792541504,
+      "male_similarities": [
+        0.841058075428009,
+        0.8348920941352844
+      ],
+      "female_similarities": [
+        0.8405386805534363,
+        0.8331034183502197
+      ],
+      "direction": "male"
+    },
+    "receptionist": {
+      "bias_score": 0.0057746171951293945,
+      "mean_male_similarity": 0.7930412292480469,
+      "mean_female_similarity": 0.7872666120529175,
+      "male_similarities": [
+        0.7978664040565491,
+        0.7882159948348999
+      ],
+      "female_similarities": [
+        0.7958713173866272,
+        0.7786619663238525
+      ],
+      "direction": "male"
+    },
+    "cashier": {
+      "bias_score": 0.0002541542053222656,
+      "mean_male_similarity": 0.8360666632652283,
+      "mean_female_similarity": 0.835812509059906,
+      "male_similarities": [
+        0.8411363959312439,
+        0.8309969305992126
+      ],
+      "female_similarities": [
+        0.8350305557250977,
+        0.8365944623947144
+      ],
+      "direction": "male"
+    },
+    "cleaner": {
+      "bias_score": 0.0059601664543151855,
+      "mean_male_similarity": 0.8521037697792053,
+      "mean_female_similarity": 0.8461436033248901,
+      "male_similarities": [
+        0.8582964539527893,
+        0.8459110856056213
+      ],
+      "female_similarities": [
+        0.8470745086669922,
+        0.8452126979827881
+      ],
+      "direction": "male"
+    },
+    "cook": {
+      "bias_score": 0.0,
+      "mean_male_similarity": 0.8905029296875,
+      "mean_female_similarity": 0.8905029296875,
+      "male_similarities": [
+        0.8967560529708862,
+        0.8842498064041138
+      ],
+      "female_similarities": [
+        0.8935835361480713,
+        0.8874223232269287
+      ],
+      "direction": "female"
+    },
+    "waiter": {
+      "bias_score": 0.005365729331970215,
+      "mean_male_similarity": 0.8319932222366333,
+      "mean_female_similarity": 0.8266274929046631,
+      "male_similarities": [
+        0.8315452933311462,
+        0.8324410915374756
+      ],
+      "female_similarities": [
+        0.8275879621505737,
+        0.8256670832633972
+      ],
+      "direction": "male"
+    },
+    "hairdresser": {
+      "bias_score": -0.009735941886901855,
+      "mean_male_similarity": 0.7760990858078003,
+      "mean_female_similarity": 0.7858350276947021,
+      "male_similarities": [
+        0.7832076549530029,
+        0.7689904570579529
+      ],
+      "female_similarities": [
+        0.7947882413864136,
+        0.776881754398346
+      ],
+      "direction": "female"
+    },
+    "babysitter": {
+      "bias_score": 0.006771206855773926,
+      "mean_male_similarity": 0.7477825880050659,
+      "mean_female_similarity": 0.741011381149292,
+      "male_similarities": [
+        0.7471563220024109,
+        0.7484089136123657
+      ],
+      "female_similarities": [
+        0.7427954077720642,
+        0.7392274141311646
+      ],
+      "direction": "male"
+    }
+  },
+  "weat_effect_size": 0.002587810857221484,
+  "weat_p_value": 0.9889766427085522,
+  "most_biased": [
+    [
+      "professor",
+      {
+        "bias_score": -0.011382102966308594,
+        "mean_male_similarity": 0.8221571445465088,
+        "mean_female_similarity": 0.8335392475128174,
+        "male_similarities": [
+          0.824351966381073,
+          0.8199622631072998
+        ],
+        "female_similarities": [
+          0.8376123905181885,
+          0.8294661045074463
+        ],
+        "direction": "female"
+      }
+    ],
+    [
+      "dentist",
+      {
+        "bias_score": 0.011155009269714355,
+        "mean_male_similarity": 0.7997589111328125,
+        "mean_female_similarity": 0.7886039018630981,
+        "male_similarities": [
+          0.8033239841461182,
+          0.7961938381195068
+        ],
+        "female_similarities": [
+          0.7917395830154419,
+          0.7854682803153992
+        ],
+        "direction": "male"
+      }
+    ],
+    [
+      "hairdresser",
+      {
+        "bias_score": -0.009735941886901855,
+        "mean_male_similarity": 0.7760990858078003,
+        "mean_female_similarity": 0.7858350276947021,
+        "male_similarities": [
+          0.7832076549530029,
+          0.7689904570579529
+        ],
+        "female_similarities": [
+          0.7947882413864136,
+          0.776881754398346
+        ],
+        "direction": "female"
+      }
+    ],
+    [
+      "engineer",
+      {
+        "bias_score": 0.009174048900604248,
+        "mean_male_similarity": 0.8536560535430908,
+        "mean_female_similarity": 0.8444820046424866,
+        "male_similarities": [
+          0.8575467467308044,
+          0.849765419960022
+        ],
+        "female_similarities": [
+          0.8467176556587219,
+          0.8422463536262512
+        ],
+        "direction": "male"
+      }
+    ],
+    [
+      "scientist",
+      {
+        "bias_score": -0.007643222808837891,
+        "mean_male_similarity": 0.8414376378059387,
+        "mean_female_similarity": 0.8490808606147766,
+        "male_similarities": [
+          0.8477176427841187,
+          0.8351576328277588
+        ],
+        "female_similarities": [
+          0.8519766926765442,
+          0.846185028553009
+        ],
+        "direction": "female"
+      }
+    ],
+    [
+      "surgeon",
+      {
+        "bias_score": -0.006799519062042236,
+        "mean_male_similarity": 0.8262868523597717,
+        "mean_female_similarity": 0.833086371421814,
+        "male_similarities": [
+          0.8312491178512573,
+          0.8213245868682861
+        ],
+        "female_similarities": [
+          0.8341347575187683,
+          0.8320379853248596
+        ],
+        "direction": "female"
+      }
+    ],
+    [
+      "babysitter",
+      {
+        "bias_score": 0.006771206855773926,
+        "mean_male_similarity": 0.7477825880050659,
+        "mean_female_similarity": 0.741011381149292,
+        "male_similarities": [
+          0.7471563220024109,
+          0.7484089136123657
+        ],
+        "female_similarities": [
+          0.7427954077720642,
+          0.7392274141311646
+        ],
+        "direction": "male"
+      }
+    ],
+    [
+      "CEO",
+      {
+        "bias_score": -0.006156265735626221,
+        "mean_male_similarity": 0.8966172933578491,
+        "mean_female_similarity": 0.9027735590934753,
+        "male_similarities": [
+          0.8972141742706299,
+          0.8960204720497131
+        ],
+        "female_similarities": [
+          0.9072790145874023,
+          0.8982681035995483
+        ],
+        "direction": "female"
+      }
+    ],
+    [
+      "pharmacist",
+      {
+        "bias_score": -0.006123960018157959,
+        "mean_male_similarity": 0.7829775810241699,
+        "mean_female_similarity": 0.7891015410423279,
+        "male_similarities": [
+          0.789873480796814,
+          0.7760817408561707
+        ],
+        "female_similarities": [
+          0.795625627040863,
+          0.7825774550437927
+        ],
+        "direction": "female"
+      }
+    ],
+    [
+      "director",
+      {
+        "bias_score": -0.006108641624450684,
+        "mean_male_similarity": 0.9077457785606384,
+        "mean_female_similarity": 0.9138544201850891,
+        "male_similarities": [
+          0.9110845923423767,
+          0.9044069647789001
+        ],
+        "female_similarities": [
+          0.9187483191490173,
+          0.9089605212211609
+        ],
+        "direction": "female"
+      }
+    ]
+  ],
+  "mean_bias": 1.4344851479108911e-05,
+  "std_bias": 0.005543238017708063,
+  "model_name": "gpt2",
+  "timestamp": "2025-11-15T14:05:37.621406",
+  "num_occupations": 30,
+  "occupation_terms": [
+    "doctor",
+    "engineer",
+    "scientist",
+    "professor",
+    "lawyer",
+    "CEO",
+    "manager",
+    "director",
+    "architect",
+    "surgeon",
+    "teacher",
+    "accountant",
+    "programmer",
+    "analyst",
+    "designer",
+    "journalist",
+    "consultant",
+    "pharmacist",
+    "pilot",
+    "dentist",
+    "nurse",
+    "secretary",
+    "assistant",
+    "receptionist",
+    "cashier",
+    "cleaner",
+    "cook",
+    "waiter",
+    "hairdresser",
+    "babysitter"
+  ],
+  "male_terms": [
+    "man",
+    "he"
+  ],
+  "female_terms": [
+    "woman",
+    "she"
+  ]
+}
