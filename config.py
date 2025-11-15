@@ -3,10 +3,9 @@ Configuration file for gender bias detection project
 """
 
 # Models to compare
-MODELS = [
-    "gpt2",  # GPT-2 base model
-    "gpt2-medium",  # Alternative if you want size comparison
-    # "meta-llama/Llama-2-7b-hf",  # Requires authentication - add after setup
+# Models to compare
+MODELS = [          # 124M parameters (already done)
+    "gpt2-medium",    # 355M parameters
 ]
 
 # Occupation terms (30 words as per MVP)

@@ -18,7 +18,7 @@ def run_full_analysis_and_save():
     print("RUNNING FULL BIAS ANALYSIS WITH AUTO-SAVE")
     print("=" * 70)
     
-    model_name = "gpt2"
+    model_name = config.MODELS[0]  # Get first model from config
     all_words = config.OCCUPATION_TERMS + config.GENDER_TERMS
     
     print(f"\nAnalyzing {len(config.OCCUPATION_TERMS)} occupations with model: {model_name}")
