@@ -5,7 +5,7 @@ Configuration file for gender bias detection project
 # Models to compare
 # Models to compare
 MODELS = [          # 124M parameters (already done)
-    "gpt2-medium",    # 355M parameters
+    "gpt2-large",    # 355M parameters
 ]
 
 # Occupation terms (30 words as per MVP)
