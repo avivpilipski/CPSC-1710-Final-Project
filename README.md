@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project investigates gender bias in the GPT-2 model family by analyzing word embeddings and their associations with occupational terms. Using the Word Embedding Association Test (WEAT) methodology, we measure how strongly different occupations associate with male vs. female gender terms across three model sizes: GPT-2 (124M), GPT-2 Medium (355M), and GPT-2 Large (774M).
+This project investigates gender bias in the GPT-2 model family by analyzing word embeddings and their associations with occupational terms. Using the Word Embedding Association Test (WEAT) methodology, I measure how strongly different occupations associate with male vs. female gender terms across three model sizes: GPT-2 (124M), GPT-2 Medium (355M), and GPT-2 Large (774M).
 
 **Key Finding**: Gender bias scales exponentially with model size, increasing by 486x from the smallest to largest model.
 
@@ -152,7 +152,7 @@ bias_score = mean(cosine_similarity(occupation, male_terms))
 
 ### Why Does Larger = More Biased?
 
-Our findings contradict the intuition that larger, better-trained models should be less biased. We propose several explanations:
+Our findings contradict the intuition that larger, better-trained models should be less biased. I propose several explanations:
 
 1. **Capacity Hypothesis**: Larger models can encode more nuanced (and biased) associations from training data
 2. **Memorization**: More parameters enable greater memorization of biased patterns in training corpus
